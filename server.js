@@ -9,20 +9,17 @@ const cTable = require("console.table");
 const inquirer = require("inquirer");
 console.log(inquirer);
 
+//Intall dotenv
+require("dotenv").config();
+
 // connection to database
 const db = mysql.createConnection({
   host: "localhost",
   //My SQL username
-  user: "",
+  user: "root",
   //My SQL Password
   password: "process.env.MYSQL_PASSWORD,",
   database: "employee_db",
-});
-
-db.connect((err) => {
-  if (err) throw err;
-  console.log("connected as id " + connection.threadId);
-  afterConnection();
 });
 
 // function after connection is established and welcome image shows
