@@ -1,18 +1,13 @@
-// import mysql2
+// Install mysql2
 const mysql = require("mysql2");
 const express = require("express");
-
-// import inquirer
-const inquirer = require("inquirer");
-
-//Create Port
-const PORT = process.env.PORT || 3001;
-const app = express();
 
 // import console.table
 const cTable = require("console.table");
 
-require("dotenv").config();
+// Install inquirer
+const inquirer = require("inquirer");
+console.log(inquirer);
 
 // connection to database
 const db = mysql.createConnection({
@@ -20,11 +15,9 @@ const db = mysql.createConnection({
   //My SQL username
   user: "root",
   //My SQL Password
-  password: "Ana1ys1s2022^^",
+  password: "process.env.MYSQL_PASSWORD,",
   database: "employee_db",
-};
-console.log("Connected to the employee database.")
-);
+});
 
 connection.connect((err) => {
   if (err) throw err;
@@ -49,7 +42,7 @@ const promptUser = () => {
       {
         type: "list",
         name: "choices",
-        message: "What would you like to do?",
+        message: "What would you like to administer?",
         choices: [
           "View all departments",
           "View all roles",
@@ -129,9 +122,9 @@ const promptUser = () => {
     });
 };
 
-// function to show all departments
+// displays all departments
 showDepartments = () => {
-  console.log("Showing all departments...\n");
+  console.log("Displaying all departments...\n");
   const sql = `SELECT department.id AS id, department.name AS department FROM department`;
 
   connection.promise().query(sql, (err, rows) => {
@@ -141,7 +134,7 @@ showDepartments = () => {
   });
 };
 
-// function to show all roles
+// function to display all roles
 showRoles = () => {
   console.log("Showing all roles...\n");
 
@@ -156,7 +149,7 @@ showRoles = () => {
   });
 };
 
-// function to show all employees
+// function to display all employee names, roles, department, manager and salary
 showEmployees = () => {
   console.log("Showing all employees...\n");
   const sql = `SELECT employee.id, 
