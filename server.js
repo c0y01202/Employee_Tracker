@@ -2,25 +2,24 @@
 const mysql = require("mysql2");
 const express = require("express");
 
+//Install dotenv
+require("dotenv").config();
+
+// create connection to employee db
+const connection = mysql.createConnection({
+  host: "localhost",
+  port: 3306,
+  user: "root",
+  password: process.env.MYSQL_PASSWORD,
+  database: "employee_db",
+});
+
 // import console.table
 const cTable = require("console.table");
 
 // Install inquirer
 const inquirer = require("inquirer");
 console.log(inquirer);
-
-//Intall dotenv
-require("dotenv").config();
-
-// connection to database
-const db = mysql.createConnection({
-  host: "localhost",
-  //My SQL username
-  user: "root",
-  //My SQL Password
-  password: "process.env.MYSQL_PASSWORD,",
-  database: "employee_db",
-});
 
 // function after connection is established and welcome image shows
 afterConnection = () => {
