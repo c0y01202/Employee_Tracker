@@ -1,3 +1,9 @@
+![database_schema](https://user-images.githubusercontent.com/97765679/166000635-b2497df5-ee15-4cdb-b082-110e30204fa3.png)
+![Image_of_terminal_1](https://user-images.githubusercontent.com/97765679/166000638-94b2173c-7310-4fa6-887b-497d05be4f6f.png)
+![Image_of_terminal_2](https://user-images.githubusercontent.com/97765679/166000639-6f143b93-af82-4d8b-a295-331c501f6ad8.png)
+![database_schema](https://user-images.githubusercontent.com/97765679/166000660-81838746-3ab0-414c-9712-d16ece035687.png)
+![Image_of_terminal_1](https://user-images.githubusercontent.com/97765679/166000684-0d0edb1d-39af-4563-9a3f-53d5c69dffd2.png)
+![Image_of_terminal_2](https://user-images.githubusercontent.com/97765679/166000739-6da98288-eb62-4e02-93fd-686b929c7ea6.png)
 # Employee_Tracker
 
 # Project Phases
