@@ -2,7 +2,7 @@
 
 ## Employee_Tracker Database Schema Visual
 ![database_schema](https://user-images.githubusercontent.com/97765679/166000635-b2497df5-ee15-4cdb-b082-110e30204fa3.png)
-# Images of Database Running with Inquirer Prompt in Command Line
+## Images of Database Running with Inquirer Prompt in Command Line
 ![Image_of_terminal_1](https://user-images.githubusercontent.com/97765679/166000638-94b2173c-7310-4fa6-887b-497d05be4f6f.png)
 ![Image_of_terminal_2](https://user-images.githubusercontent.com/97765679/166000639-6f143b93-af82-4d8b-a295-331c501f6ad8.png)
 
