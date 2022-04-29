@@ -1,4 +1,5 @@
 # Employee Tracker Database
+![Short_video_Challenge_12](https://user-images.githubusercontent.com/97765679/166002099-1a5f3071-057c-4b62-8ff2-aaa7a033e44b.gif)
 
 ## Employee_Tracker Database Schema Visual
 ![database_schema](https://user-images.githubusercontent.com/97765679/166000635-b2497df5-ee15-4cdb-b082-110e30204fa3.png)
@@ -12,6 +13,7 @@ Three databases were programmed using the MySQL2 package. These databases includ
 
 After the database was seeded with data and created in MySql a server.js file was created. This file contains the prompts and functions that modifify the database content. To use this project, simply make sure you are using the employee_tracker database in MySql. Type in command node server.js to launch inquirer in the terminal. A series of questions should appear. You can list all 3 tables with contents, add content to the database or delete content from the database.
 
+# Link to Video Demonstration:
 Please watch the video running node.js, MySQL and Inquirer in Visual Studio for this challenge at this link: https://drive.google.com/file/d/1GUFD9wjRZuccExng7k-9LitbPWJa60GT/view
 
 ## Resources Utilized for Challenge 12:
