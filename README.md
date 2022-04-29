@@ -15,3 +15,8 @@ Please watch the video of all functions to complete this challenge at this link:
 3. MySQL2 Package with Express
 4. Inquirer
 5. Jest
+6. console.table.package
+
+# URL of GitHub Respository
+
+https://github.com/c0y01202/Employee_Tracker
